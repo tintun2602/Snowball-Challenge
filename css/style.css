@@ -45,16 +45,6 @@ body {
 
 footer {
     font-weight: 100;
-    .icon {
-
-        font-size: 100px;
-        font-weight: 100px;
-        float: left;
-        width: 50px;
-        display: flex;
-        
-    }
-
 }
 
 .icon {
