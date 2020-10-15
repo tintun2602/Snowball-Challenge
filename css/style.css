@@ -114,6 +114,7 @@ body {
 
 .staff-img {
     border-radius: 50%;
+   
 }
 
 
@@ -159,4 +160,13 @@ footer {
     width: 200px;
     
     
+}
+
+section {
+    background: linear-gradient(to right, #dbe6f6, #c5796d);
+}
+
+.staffh1 {
+font-size: 4rem;
+    padding: 80px; 
 }
