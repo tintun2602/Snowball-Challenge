@@ -46,13 +46,14 @@ ul {
 a {
     padding: 0 20px;
     color: black;
+    margin-left: 200px;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif; 
-
     
-
+    font-family: 'Oswald', sans-serif;
+    
+    
 }
 
 
@@ -63,10 +64,10 @@ footer {
 .icon {
 
     font-size: 100px;
-    float: left;
     width: 50px;
-    display: flex;
+    display: block;
     margin-left: 0 50px;
+    height: 100px;
 
     
 }
@@ -81,3 +82,29 @@ footer {
     
 }
 
+* {
+    box-sizing: border-box;
+   
+}
+
+.mainpic {
+    display: flex;
+    
+}
+.mainpic img {
+    flex-basis: 50%;
+    width: 50%;
+    height: 400px;
+    margin: 10px;
+
+
+}
+.mainpic div {
+    flex-basis: 50%;
+    width: 50%;
+    background-color: grey;
+    color: white;
+}
+header {
+    border-bottom: 1px solid;
+}
