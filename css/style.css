@@ -93,17 +93,19 @@ footer {
 }
 .mainpic img {
     flex-basis: 50%;
+    object-fit: cover;
     width: 50%;
-    height: 400px;
-    margin: 10px;
+    height: 700px;
 
-
+margin-left: 10px;
 }
 .mainpic div {
     flex-basis: 50%;
     width: 50%;
+    height: 700px;
     background-color: grey;
     color: white;
+    
 }
 header {
     border-bottom: 1px solid;
