@@ -10,6 +10,18 @@
     display: table;
 
 }
+.nav {
+    position: relative;
+}
+
+.screen {
+ position: relative; 
+}
+
+.screen-img {
+    position: absolute;
+    left: 640px;
+}
 
 .column{
     float: right; 
