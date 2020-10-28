@@ -10,8 +10,11 @@
     display: table;
 
 }
-.nav {
+.navbar {
     position: relative;
+    height: 100px
+    background-color: red;
+    
 }
 
 .screen {
